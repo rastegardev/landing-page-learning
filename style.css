@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background-image {
+  width: 50vw;
+  height: 100vh;
+  box-shadow: 5px 5px rgba(0, 0, blue, alpha);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.new-idea {
+  width: 650px;
+  position: absolute;
+  right: 20px;
+  top: 170px;
+}
+.container ul {
+  color: #fff;
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.container ul li {
+  margin: 0 50px 0 0;
+}
+.container ul li:nth-child(2) {
+  padding: 2px 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.logotype {
+  position: absolute;
+  top: 30px;
+  left: 110px;
+}
+.title {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.dec {
+  width: 500px;
+  font-size: 1rem;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+.btn {
+  width: 330px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  background: linear-gradient(to left, #fd6940, #f89a36);
+  border-radius: 15px;
+  position: absolute;
+  left: 50px;
+  top: 500px;
+}
+
+.circle1 {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  border-radius: 50%;
+  background: #fd6940;
+  position: absolute;
+  right: 600px;
+  top: 650px;
+}
+.circle2 {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  border-radius: 50%;
+  background: #d8d6d6;
+  position: absolute;
+  right: 580px;
+  top: 650px;
+}
+.circle3 {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  border-radius: 50%;
+  background: #d8d6d6;
+  position: absolute;
+  right: 620px;
+  top: 650px;
+}
+.circle4 {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  border-radius: 50%;
+  background: #d8d6d6;
+  position: absolute;
+  right: 640px;
+  top: 650px;
+}
+.mobile {
+  display: none;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 1281px) {
+  .container {
+    display: none;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #fd6940, #f89a36);
+  }
+  .mobile {
+    margin: 20px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+/* Media Query for Laptops and Desktops */
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: green;
+  }
+} */
+
+/* Media Query for Large screens */
+/* @media (min-width: 1281px) {
+  body {
+    background-color: white;
+  }
+}  */
